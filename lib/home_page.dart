@@ -61,7 +61,7 @@ class HomePage extends ConsumerWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: (() {
           // Changing the state of State Provider
-          ref.read(stateProvider.state).state++;
+          ref.read(stateProvider.notifier).state++;
         }),
       ),
     );
