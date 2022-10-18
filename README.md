@@ -1,6 +1,6 @@
 # riverpod_demo
 
 Providers:
-State Provider
-Future Provider
+State Provider,
+Future Provider,
 Stream Provider
