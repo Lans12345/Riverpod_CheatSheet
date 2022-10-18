@@ -6,7 +6,7 @@ final stateProvider = StateProvider.autoDispose<int>((ref) => 0);
 // Future Provider
 final futureProvider = FutureProvider.autoDispose<String>(((ref) async {
   await Future.delayed(const Duration(seconds: 2));
-  return 'Lance';
+  return 'Surprise!';
 }));
 
 // Stream Provider
